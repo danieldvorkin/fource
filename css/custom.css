@@ -1,161 +1,161 @@
 body {
-    background-color: #ebebeb;
-    font-family: 'Montserrat', sans-serif;
+  background-color: #ebebeb;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .well {
-    background-color: white;
-    height: 500px;
-    margin: 4em 25em;
-    box-shadow: 0;
-    transition: box-shadow 1s;
-    transition-delay: 1s;
-    border-radius: 3em;
+  background-color: white;
+  height: 500px;
+  margin: 4em 25em;
+  box-shadow: 0;
+  transition: box-shadow 1s;
+  transition-delay: 1s;
+  border-radius: 3em;
 }
 
 .main-logo {
-    width: 575px;
-    max-width: 100%;
+  width: 575px;
+  max-width: 100%;
 }
 
 .flags img {
-    margin-top: 50px;
-    box-shadow: 0px 0px 1px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 1px;
 }
 
 .flags {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 
 #flag-canada,
 #flag-prague {
-    width: 100%;
+  width: 100%;
 }
 
 .flags img:hover {
-    box-shadow: 0 0 15px;
+  box-shadow: 0 0 15px;
 }
 
 #canada,
 #prague {
-    position: relative;
-    top: -10px;
-    left: 85px;
+  position: relative;
+  top: -10px;
+  text-align: center;
 }
-
 
 /*Social media buttons*/
 
 .entry-social {
-    margin-bottom: 20px;
-    color: rgb(126, 126, 126);
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    height: auto;
-    line-height: 23.799999237060547px;
-    margin-bottom: 20px;
-    width: 100%;
-    width: 100%;
-    float: left;
-    border: solid 0px #aaa;
-    text-align: center;
+  margin-bottom: 20px;
+  color: rgb(126, 126, 126);
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  height: auto;
+  line-height: 23.799999237060547px;
+  margin-bottom: 20px;
+  width: 100%;
+  width: 100%;
+  float: left;
+  border: solid 0px #aaa;
+  text-align: center;
 }
 
 .entry-social div {
-    display: block;
-    width: 138px;
-    margin: 2px;
-    display: inline-block;
-    vertical-align: middle;
+  display: block;
+  width: 138px;
+  margin: 2px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .entry-social a {
-    text-decoration: none;
-    display: block;
-    padding-left: 20px;
-    color: #FFFFFF !important;
-    font-weight: bold;
-    transition: background-color .3s;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  transition: background-color .3s;
 }
 
 .entry-social .fb a {
-    padding: 7px 10px 7px 26px;
-    background: #3B5999 url('http://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;
+  padding: 7px 10px 7px 26px;
+  background: #3B5999 url("http://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png") no-repeat 10px center;
 }
 
 .entry-social .twitter a {
-    padding: 7px 10px 7px 32px;
-    background: #01BBF6 url('http://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/instagram14.png') no-repeat 8px center;
+  padding: 7px 10px 7px 32px;
+  background: #01BBF6 url("http://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/instagram14.png") no-repeat 8px center;
 }
 
 .entry-social .gplus a {
-    padding: 7px 10px 7px 32px;
-    background: #D54135 url('http://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png') no-repeat 10px center;
+  padding: 7px 10px 7px 32px;
+  background: #D54135 url("http://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png") no-repeat 10px center;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 footer .link {
-		margin-top:-50px;
-    display: inline-block;
-    padding: 0 40px 0;
-    font-size: 21px;
-    line-height: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: black;
-    vertical-align: middle;
-    border-radius: 50%;
-	  width: 100px;
-	  height: 100px;
-    transition: color .4s;
+  display: inline-block;
+  padding: 0 40px 0;
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: color .4s;
 }
 
 footer .link i {
-	margin-top:150%;
+  margin-top: 150%;
 }
-footer .link .fa-instagram, footer .link .fa-youtube {
-	position:relative;
-	left:-7px;
+
+footer .link .fa-instagram,
+footer .link .fa-youtube {
+  position: relative;
+  left: -7px;
 }
 
 #fb,
 #insta,
 #yt {
-    background-color: none;
-    transition: background-color .4s;
+  background-color: none;
+  transition: background-color .4s;
 }
 
 footer .link:hover {
   color: white;
-  transition-delay:.4s;
+  transition-delay: .4s;
 }
 
 #fb:hover,
 #insta:hover,
 #yt:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #fb:hover {
   background-color: #3b5998 !important;
-  transition-delay:.1s;
+  transition-delay: .1s;
 }
 
 #insta:hover {
   background-color: #ded1c1 !important;
-  transition-delay:.1s;
+  transition-delay: .1s;
 }
 
 #yt:hover {
   background-color: red !important;
-  transition-delay:.1s;
+  transition-delay: .1s;
 }
