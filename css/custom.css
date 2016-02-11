@@ -1,3 +1,45 @@
 body {
-  background-color: #ebebeb;
+    background-color: #ebebeb;
+}
+
+h2 {
+	text-align:center;
+}
+.well {
+    background-color: white;
+    height: 500px;
+    margin: 4em 25em;
+    box-shadow: 0;
+    transition: box-shadow 1s;
+    transition-delay: 1s;
+    border-radius: 3em;
+}
+
+/*.well:hover {
+    box-shadow: 0 0 15px;
+}*/
+
+.main-logo {
+    width: 575px;
+    max-width: 100%;
+}
+
+.flags img {
+	margin-top:50px;
+	box-shadow:0px;
+}
+.flags {
+	margin-top:-50px;
+}
+
+#flag-canada, #flag-prague { width:100%;}
+
+.flags img:hover {
+	box-shadow: 0 0 15px;
+}
+
+#canada, #prague {
+	  position: relative;
+    top: -10px;
+    left: 85px;
 }
