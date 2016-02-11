@@ -26,7 +26,7 @@ h2 {
 
 .flags img {
 	margin-top:50px;
-	box-shadow:0px;
+	box-shadow:0px 0px 1px;
 }
 .flags {
 	margin-top:-50px;
