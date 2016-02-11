@@ -109,8 +109,9 @@ footer {
 }
 
 footer .link {
+		margin-top:-50px;
     display: inline-block;
-    padding: 0 20px 0;
+    padding: 0 40px 0;
     font-size: 21px;
     line-height: 28px;
     font-weight: 700;
@@ -118,8 +119,8 @@ footer .link {
     color: black;
     vertical-align: middle;
     border-radius: 50%;
-	  width: 50px;
-	  height: 50px;
+	  width: 100px;
+	  height: 100px;
     transition: color .4s;
 }
 
@@ -128,7 +129,7 @@ footer .link i {
 }
 footer .link .fa-instagram, footer .link .fa-youtube {
 	position:relative;
-	left:-4px;
+	left:-7px;
 }
 
 #fb,
