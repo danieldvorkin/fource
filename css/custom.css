@@ -5,6 +5,7 @@ body {
 
 h2 {
   text-align: center;
+  font-size: 1em;
 }
 
 .well {
@@ -45,6 +46,7 @@ h2 {
   position: relative;
   top: -10px;
   text-align: center;
+  font-size: 0.875em;
 }
 
 /*Social media buttons*/
