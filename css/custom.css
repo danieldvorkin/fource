@@ -8,19 +8,22 @@ h2 {
   font-size: 1em;
 }
 
-.well {
+.flagsrow{
   background-color: white;
   height: 500px;
-  margin: 4em 25em;
+  width: 100%;
+
   box-shadow: 0;
   transition: box-shadow 1s;
   transition-delay: 1s;
   border-radius: 3em;
 }
 
+
 .main-logo {
-  width: 575px;
+  width: 500px;
   max-width: 100%;
+  margin-top: 25px;
 }
 
 .flags img {
