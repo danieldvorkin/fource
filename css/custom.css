@@ -1,3 +1,5 @@
+@media screen and (min-width: 400px)
+
 body {
   background-color: #ebebeb;
   font-family: 'Montserrat', sans-serif;
@@ -12,18 +14,18 @@ h2 {
   background-color: white;
   height: 500px;
   width: 400px;
-  box-shadow: 0;
+  box-shadow: 1px 1px 3px;
   transition: box-shadow 1s;
   transition-delay: 1s;
   border-radius: 3em;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 
 .main-logo {
   width: 500px;
   max-width: 100%;
-  padding-top:-50%;
+  padding-top:10%;
 }
 
 .flags img {
@@ -103,14 +105,19 @@ h2 {
   background: #D54135 url("http://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png") no-repeat 10px center;
 }
 
-footer {
-  text-align: center;
-}
+
+footer { 
+text-align: center; 
+clear: both;
+padding-top: 50px;}
+
+
+
 
 footer .link {
   display: inline-block;
-  padding: 0 40px 0;
-  font-size: 21px;
+  padding: 0 33px 0;
+  font-size: 22px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -163,4 +170,5 @@ footer .link:hover {
 #yt:hover {
   background-color: red !important;
   transition-delay: .1s;
+}
 }
